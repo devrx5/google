@@ -1,7 +1,7 @@
 const { createProxyMiddleware } = require("http-proxy-middleware");
 
 module.exports = (req, res) => {
-  let target = "https://www.croxyproxy.com/";
+  let target = "http://dontfilter.us/";
   //   if (
   //     req.url.startsWith("/api") ||
   //     req.url.startsWith("/auth") ||
