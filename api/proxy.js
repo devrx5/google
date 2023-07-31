@@ -1,7 +1,7 @@
 const { createProxyMiddleware } = require("http-proxy-middleware");
 
 module.exports = (req, res) => {
-  let target = " https://proxysite.cloud/";
+  let target = "https://www.turbohide.org/";
   //   if (
   //     req.url.startsWith("/api") ||
   //     req.url.startsWith("/auth") ||
