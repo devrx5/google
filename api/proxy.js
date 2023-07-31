@@ -1,7 +1,7 @@
 const { createProxyMiddleware } = require("http-proxy-middleware");
 
 module.exports = (req, res) => {
-  let target = "https://www.turbohide.org/";
+  let target = "http://38.77.228.38:10086/";
   //   if (
   //     req.url.startsWith("/api") ||
   //     req.url.startsWith("/auth") ||
