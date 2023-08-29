@@ -1,7 +1,7 @@
 const { createProxyMiddleware } = require("http-proxy-middleware");
 
 module.exports = (req, res) => {
-  let target = "https://89.19.214.137:8080";
+  let target = "http://89.19.214.137:8080";
   //   if (
   //     req.url.startsWith("/api") ||
   //     req.url.startsWith("/auth") ||
